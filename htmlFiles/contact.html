@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="validation.js"></script>
+</head>
+<body>
+    <img class="bg" src="zeebanner.png" />
+    <div class="topnav">
+            <a href="index.html"><img src="home.png" width="30" height="30"   alt="songz"></a>
+            <a href="artists.html"><img src="artists.png" width="30" height="30"   alt="songz"></a>
+            <div class="dropdown">
+                <button class="dropbtn"><img src="songs.png" width="30" height="30"   alt="songz">
+                    <i class="fa fa-caret-down"></i>
+        
+                </button>
+                <div class="dropdown-content">
+                    <a href="songs.html" alt="songs link">Songs</a>
+                    <a href="videos.html" alt="videos link">Videos</a>
+                </div>
+            </div>
+            <a href="contact.html"><img src="contact.png" width="30" height="30"   alt="songz"></a>
+            </div>       
+        <center>
+        <p>If you ever want to discuss songs for me to listen too, you can contact me on any of my socials! 
+            <br>
+            <br>
+            <a href="https://twitter.com/tae_seokiee"><img src="twitter.png" width="50" height="50" alt="Zee's twitter account"></a>
+            <a href="https://www.instagram.com/zee_baniaz/"><img src="insta.png" width="50" height="50" alt="Zee's insta account"></a>
+           <a href="https://next-bex-bet.tumblr.com/"><img src="tumblr.png" width="50" height="50" alt="Zee's tumblr account"></a>
+            <br>
+            Or through my <a href="mailto:ilovekpop2016@outlook.com">email</a>
+        </p>
+        </center>
+    </div>
+    <center>
+<form name="contactme"  action="mailto:mailto:ilovekpop2016@outlook.com"   method="POST" onsubmit="return validate()">
+    Name:<br>
+    <input type="text" name="name" >
+    <br>
+    <br>
+    Social Media:<br>
+    <input type="text" name="social">
+    <br>
+    <br>
+    Email: <br>
+    <input type="email" name="email" >
+    <br>
+    <br>
+    Who is your favorite Group/Idol?<br>
+    <select id="groups" name="FAVES">
+        <option value="BTS">BTS</option>
+        <option value="RED VELVET">RED VELVET</option>
+        <option value="GOT7">GOT7</option>
+        <option value="MAMAMOO">MAMAMOO</option>
+        <option value="SHINee">SHINee</option>
+        <option value="BLACKPINK">BLACKPINK</option>
+        <option value="NCT">NCT</option>
+        <option value="TWICE">TWICE</option>
+
+    </select>
+    <br>
+    <br>
+    Would you like to say something?<br>
+    <textarea name="MESSAGE" id="" cols="30" rows="10" ></textarea>
+    <br>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+    <br>
+</form> 
+</center>
+</body>
+</html>
